@@ -2,10 +2,10 @@ import { IsString, IsEmail, IsPhoneNumber } from 'class-validator';
 
 export class UpdateParticipanteDto {
   @IsString()
-  name: string;
+  nombre: string;
 
   @IsEmail()
-  email: string;
+  correo: string;
 
  
 }
