@@ -7,6 +7,5 @@ export class UpdateParticipanteDto {
   @IsEmail()
   email: string;
 
-  @IsPhoneNumber()
-  phone: string;
+ 
 }
